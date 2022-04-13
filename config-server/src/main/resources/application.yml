@@ -1,1 +1,16 @@
+server:
+  port: 8888
+spring:
+  aplication:
+    name: erudio-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Danielfp13/config-server/
+        # username: usuario-github
+        # password: senhagithub
+          default-label: main
+          search-paths:
+          - 'greeting-service*'
 
