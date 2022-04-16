@@ -17,6 +17,5 @@ public class StandardError {
     private LocalDateTime timestamp;
     private String error;
     private String message;
-    private Throwable cause;
     private String path;
 }
