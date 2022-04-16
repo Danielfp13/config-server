@@ -1,7 +1,7 @@
 server:
   port: 8888
 spring:
-  aplication:
+  application:
     name: erudio-config-server
   cloud:
     config:
